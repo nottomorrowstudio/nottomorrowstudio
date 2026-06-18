@@ -1,0 +1,58 @@
+/* Smartphones */
+
+@media (max-width: 767px) {
+
+  .hero {
+    padding: 1.5rem;
+  }
+
+  .hero-logo {
+    width: 75vw;
+    max-width: 280px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    letter-spacing: 0.08em;
+  }
+
+  .hero-subtitle {
+    max-width: 90%;
+  }
+}
+
+/* Tablets */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .hero-logo {
+    width: 50vw;
+    max-width: 350px;
+  }
+
+  .hero-content {
+    padding: 2rem;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+  .hero-logo {
+    width: 420px;
+  }
+}
+
+/* Large Displays */
+
+@media (min-width: 1800px) {
+
+  .hero-content {
+    max-width: 1600px;
+  }
+
+  .hero-logo {
+    width: 500px;
+  }
+}
