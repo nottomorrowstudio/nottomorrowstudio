@@ -49,7 +49,7 @@
     justify-content: space-between;
     align-items: center;
 
-    gap: 1rem; /* prevents text collapse */
+    gap: 0.75rem; /* prevents text collapse */
   }
 
   .footer-column {
